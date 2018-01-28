@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dinht.jobdung.ReviewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#002958">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_20"
+                android:layout_marginTop="@dimen/pad_20"
+                android:background="@drawable/bg_symboy" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/pad_20">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/pad_20"
+                    android:gravity="center"
+                    android:text="Nguyễn thị c"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_size"
+                    android:textAllCaps="true"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/pad_20"
+                    android:gravity="center"
+                    android:text="this is date time"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_size"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/pad_40"
+            android:paddingRight="@dimen/pad_40"
+            android:paddingTop="@dimen/pad_20"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Trạng thái công việc"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Công việc đã đặt lịch, chờ thực hiện"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text_one"
+                android:textColor="#f5a623" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/pad_10"
+                android:text="Địa chỉ"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Số 3,Ngõ 7,Xuân Thủy,Cầu Giáy,Hà Nội"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textColor="@color/colorXam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/pad_10"
+                android:text="Công việc"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gói dịch vụ : Dọn nhà căn bản"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorXam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\- dọn nhà \n \-phơi đồ \n \-dọn dẹp nhà cửa"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorXam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/pad_10"
+                android:text="Dịch vụ cộng thêm"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Không có dịch vụ cộng thêm"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textColor="@color/colorXam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/pad_10"
+                android:text="Chi phí và thanh toán"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tổng thanh toán : 150000đ"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textColor="@color/colorXam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Phương thức thanh toán : Thẻ quốc tế"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textColor="@color/colorXam" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

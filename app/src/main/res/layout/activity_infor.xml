@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dinht.jobdung.InforActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_avatar"
+                android:layout_margin="@dimen/pad_10"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/pad_10"
+                android:layout_marginBottom="@dimen/pad_10">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dọn nhà cơ bản"
+                    android:textAllCaps="true"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorYell"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đặt lịch theo tuần"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorXam"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chi phí:50000đ mỗi giờ"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tổng giờ làm: 19 giờ"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khuyến mãi 10%"
+                    android:textSize="17dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/bg_blue"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_address"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/pad_20">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_40"
+                android:layout_marginRight="@dimen/pad_40"
+                android:background="@drawable/input"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khuyến mại"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_blue_symboy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad_10"
+                        android:text="Mã khuyến mại KM10HN đã được áp dụng"
+                        android:textColor="@color/colorblue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button"
+                        android:hint="Nhập mã khuyến mại..."
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="@dimen/pad_10"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:text="Áp dụng"
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad_20"
+                        android:text="Km10hn"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/text_one"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="@dimen/pad_10"
+                        android:background="@drawable/bg_red"
+                        android:text="Hủy bỏ"
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad_20"
+                        android:text="Km20"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/text_one"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="@dimen/pad_10"
+                        android:background="@drawable/bg_red"
+                        android:text="Hủy bỏ"
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="phụ phí"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_one"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Dụng cụ:10000đ"
+                    android:textSize="@dimen/text_one"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Khăn mới:10000đ"
+                    android:textSize="@dimen/text_one"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Kiểm soát:10000đ"
+                    android:textSize="@dimen/text_one"
+                    android:textColor="@color/colorText"/><TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Dung dịch:10000đ"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_40"
+                android:layout_marginRight="@dimen/pad_40"
+                android:background="@drawable/input"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tổng cộng"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_one"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_60"
+                    android:text="790.000đ"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_one"
+                    android:textColor="@color/colorYell" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_40"
+                android:layout_marginRight="@dimen/pad_40"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/button"
+                    android:text="Xem thông tin và thanh toán"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_one" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

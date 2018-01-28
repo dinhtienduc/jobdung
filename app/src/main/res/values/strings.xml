@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">jobdung</string>
+    <string name="title_activity_hello">HelloActivity</string>
+    <string name="hello">Chào mừng bạn đến với EHelp!</string>
+    <string name="wellcome">Tìm giúp việc nhanh chóng Chỉ với 4 bước</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!--start-->
+    <string name="begin">Bắt đầu</string>
+    <string name="address">Bạn hãy nhập địa chỉ của mình vào thanh tìm kiếm.Nếu vị trí khó xác định hãu sử dụng tính năng \"Ghim\".</string>
+    <!--step1-->
+    <string name="step_1">Bước 1: Nhập địa chỉ</string>
+    <string name="step_1_next">Bước 2</string>
+    <!--step2-->
+    <string name="step_2">Bước 2: Chọn dịch vụ</string>
+    <string name="service">Bạn có thể chọn một hoặc nhiều dịch vụ cùng một lúc. Yêu cầu chọn ít nhất một dịch vụ chính. Các dịch vụ phụ là tùy chọn, nếu cần bạn hãy lựa chọn </string>
+    <string name="step_2_next">Bước 3</string>
+    <!--step3-->
+    <string name="step_3">Bước 3: Kiểm tra và Thanh toán</string>
+    <string name="check">Khi bạn chắc chắn tất cả dịch vụ mà mình lựa chọn là chính xác. Hãy ấn nút \"Xác nhận\" để hệ thống tiến hành gửi yêu cầu của bạn</string>
+    <string name="step_3_next">Bước 4</string>
+    <!--step4-->
+    <string name="step_4">Bước 4: Đánh giá và Kết thúc</string>
+    <string name="finish">Đây là bước cuối cùng khi người lao động hoàn thành công việc. Hẫy đánh giá 5 sao cho người lao động nếu bạn thấy ưng ý</string>
+    <string name="step_4_next">Hoàn thành</string>
+    <!--login-->
+    <string name="user">Nhập số điện thoại</string>
+    <string name="pass">Nhập mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="other">Hoặc</string>
+    <string name="Facebook">Đăng nhập bằng facebook</string>
+    <string name="Google">Đăng nhập bằng google</string>
+    <string name="account_quest">Bạn có tài khoản chưa?</string>
+    <string name="account">Đăng kí tài khoản</string>
+    <!--register-->
+    <string name="regis">Đăng kí</string>
+    <string name="acc">Tài khoản khách hàng</string>
+    <string name="fname">Họ và đệm</string>
+    <string name="latname">Tên</string>
+    <string name="email">Nhập email</string>
+    <string name="intro">Mã giới thiệu(Tùy chọn)</string>
+    <string name="account_ok">Bạn đã có tài khoản?</string>
+    <string name="acc_login">Đăng nhập tài khoản</string>
+    <!--code-->
+    <string name="code">Nhập mã xác nhận</string>
+    <string name="code_intro">Vui lòng nhập mã xác nhận vào ô bên dưới</string>
+    <string name="code_ero">Nếu không nhập được mã</string>
+    <string name="code_again">Ấn vào đây để nhận lại</string>
+    <string name="ok">Xác nhận</string>
+    <string name="intro_hint">Nhập mã xác nhận\...</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!--address-->
+    <string name="menu">Menu</string>
+    <string name="ser_menu">Bạn cần giúp ở đâu</string>
+    <string name="menu_ok">Chọn địa điểm</string>
+    <!--end service-->
+    <string name="end_sv">Chọn lịch của bạn</string>
+    <string name="days">Đặt lẻ</string>
+    <string name="week">Hàng tuần</string>
+</resources>

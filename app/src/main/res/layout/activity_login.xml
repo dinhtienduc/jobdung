@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dinht.jobdung.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/pad_60"
+        android:paddingLeft="@dimen/pad_60"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="@dimen/pad_10"
+            app:srcCompat="@drawable/button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_40"
+            android:background="@drawable/input"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:paddingTop="@dimen/pad_10"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/lock" />
+
+            <EditText
+                android:id="@+id/edtUser"
+                android:layout_width="match_parent"
+                android:layout_height="040dp"
+                android:ems="10"
+                android:hint="@string/user"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_10"
+            android:background="@drawable/input"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:paddingTop="@dimen/pad_10"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/key" />
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/pass"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/pad_10"
+            android:background="@drawable/button"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_one" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/other"
+            android:paddingTop="10dp"
+            android:textSize="@dimen/text_one"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/facebook"
+            android:layout_marginTop="@dimen/pad_10"
+            android:text="@string/Facebook"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_one"/>
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/google"
+            android:layout_marginTop="@dimen/pad_10"
+            android:text="@string/Google"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_one"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/pad_10">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_quest"/>
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/pad_10"
+                android:text="@string/account"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

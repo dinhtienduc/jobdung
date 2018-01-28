@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.dinht.jobdung.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/txtHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorText"/>
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:paddingRight="@dimen/pad_30"
+            android:paddingLeft="@dimen/pad_30"
+            android:paddingTop="@dimen/pad_20"
+            app:srcCompat="@android:color/holo_green_dark" />
+        
+        <TextView
+            android:id="@+id/txtWellcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/pad_20"
+            android:text="@string/wellcome"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorText"/>
+        <Button
+            android:id="@+id/btnBegin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_20"
+            android:background="@drawable/button"
+            android:text="Bắt đầu"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

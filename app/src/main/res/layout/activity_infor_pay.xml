@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dinht.jobdung.inforPayActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_address"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/pad_20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_40"
+            android:layout_marginRight="@dimen/pad_40"
+            android:orientation="horizontal"
+            android:background="#d8d8d8">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:allowUndo="false"
+                android:layout_marginLeft="@dimen/pad_10"
+                android:paddingTop="@dimen/pad_40"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/pad_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="@dimen/pad_10"
+                    android:text="Thẻ quốc tế"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chấp nhận thẻ Visa/Mastercard"
+                    android:textColor="@color/colorXam"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_40"
+            android:layout_marginRight="@dimen/pad_40"
+            android:layout_marginTop="@dimen/pad_10"
+            android:orientation="horizontal"
+            android:background="#d8d8d8">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:allowUndo="false"
+                android:layout_marginLeft="@dimen/pad_10"
+                android:paddingTop="@dimen/pad_40"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/pad_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="@dimen/pad_10"
+                    android:text="Ngân hàng nội địa"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chấp nhận hơn 30 ngân hàng nội địa"
+                    android:textColor="@color/colorXam"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_40"
+            android:layout_marginRight="@dimen/pad_40"
+            android:layout_marginTop="@dimen/pad_10"
+            android:orientation="horizontal"
+            android:background="#d8d8d8">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:allowUndo="false"
+                android:layout_marginLeft="@dimen/pad_10"
+                android:paddingTop="@dimen/pad_40"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/pad_60"
+                android:text="Tiền mặt"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_40"
+            android:layout_marginRight="@dimen/pad_40"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông tin thanh toán"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorText"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:layout_marginTop="5dp"
+                android:paddingTop="10dp"
+                android:hint="Nhập số thể"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/input"
+                android:hint="Nhập tên chủ thẻ"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/pad_10"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/edtFname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/input"
+                    android:paddingLeft="@dimen/pad_20"
+                    android:paddingTop="@dimen/pad_10"
+                    android:hint="Phát hành"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/edtLname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hint="kết thúc"
+                    android:layout_marginLeft="30dp"
+                    android:paddingTop="@dimen/pad_10"
+                    android:background="@drawable/input"
+                    android:inputType="text"/>
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/input"
+                android:hint="Nhập mã bảo mật"
+                android:paddingTop="10dp"
+                android:textSize="@dimen/text_one"
+                android:textColor="@color/colorText" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_40"
+            android:layout_marginRight="@dimen/pad_40"
+            android:paddingTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/success" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/pad_10"
+                android:text="Bạn đã thêm thẻ thành công"
+                android:textColor="@color/colorblue"
+                android:textSize="@dimen/text_one"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_40"
+            android:layout_marginRight="@dimen/pad_40"
+            android:paddingTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/button"
+                android:text="Xem thông tin và thanh toán"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="@dimen/text_one" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
